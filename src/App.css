@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Lobster&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Comfortaa', cursive;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.header-box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 80px;
+  background-color: #0A111F;
+  color: #E5E5E5;
+}
+
+h2.title-app{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem;
+  color: #FCA311;
+}
+
+h2 span {
+  font-family: 'Comfortaa', cursive;
+  font-size: 1rem;
+  color: #FFF;
+}
+
+.content-box {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tasks-box {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 20px;
+  background-color: #0A111F;
+  padding: 20px;
+}
+
+.title-header-tasks {
+  font-size: 1.2rem;
+  color: #E5E5E5
+}
+
+.box-general-tasks {
+  width: 100%;
+  margin: 20px auto;
+  
+  background-color: #14213D;
+}
+
+.box-add-tasks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.box-add-tasks-left {
+  display: flex;
+  color: #E5E5E5;
+  text-align: left;
+  font-size: 0.7rem;
+  padding: 5px;
+}
+
+.title-input-name-task,
+.title-input-desc-task {
+  padding: 5px;
+}
+
+.input-tasks {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #E5E5E5;
+}
+
+.add-task-button {
+  background-color: #FCA311;
+  color: #14213D;
+  font-weight: 600;
+  border: 0;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.box-show-tasks {
+  display: flex;
+  justify-items: start;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+@media (max-width: 780px) {
+  .header-box {
+    padding: 10px 50px;
+  }
+
+  .tasks-box {
+    width: 100%;
+    min-width: 400px;
+    border-radius: 20px;
+    background-color: #0A111F;
+    padding: 20px;
+  }
+}

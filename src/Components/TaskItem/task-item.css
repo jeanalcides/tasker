@@ -1,0 +1,51 @@
+.box-content-task {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: 2px solid #0A111F;
+    padding: 15px;
+
+}
+
+.box-content-task-left {
+    width: 80%;
+    text-align: left;
+}
+
+.item-task-name {
+    color: #FCA311;
+    margin-bottom: 5px;
+}
+
+.item-task-desc {
+    color: #E5E5E5;
+    font-size: 0.8rem;
+}
+
+.box-content-task-right {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.task-button {
+    font-weight: 600;
+    border: 0;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.task-button-complete {
+    background-color: #E5E5E5;
+    color: green;
+    border: 2px solid forestgreen;
+    margin-right: 10px;
+}
+
+.task-button-delete {
+    background-color: #E5E5E5;
+    color: red;
+    border: 2px solid red;
+}
